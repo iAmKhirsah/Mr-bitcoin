@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/iAmKhirsah/Mr-bitcoin.git/static/css/main.dd5c4ce7.css",
-    "main.js": "/iAmKhirsah/Mr-bitcoin.git/static/js/main.e700e211.js",
-    "static/js/787.542f81e0.chunk.js": "/iAmKhirsah/Mr-bitcoin.git/static/js/787.542f81e0.chunk.js",
-    "index.html": "/iAmKhirsah/Mr-bitcoin.git/index.html",
-    "main.dd5c4ce7.css.map": "/iAmKhirsah/Mr-bitcoin.git/static/css/main.dd5c4ce7.css.map",
-    "main.e700e211.js.map": "/iAmKhirsah/Mr-bitcoin.git/static/js/main.e700e211.js.map",
-    "787.542f81e0.chunk.js.map": "/iAmKhirsah/Mr-bitcoin.git/static/js/787.542f81e0.chunk.js.map"
+    "main.css": "/Mr-bitcoin/static/css/main.dd5c4ce7.css",
+    "main.js": "/Mr-bitcoin/static/js/main.858ed0b5.js",
+    "static/js/787.542f81e0.chunk.js": "/Mr-bitcoin/static/js/787.542f81e0.chunk.js",
+    "service-worker.js": "/Mr-bitcoin/service-worker.js",
+    "index.html": "/Mr-bitcoin/index.html",
+    "main.dd5c4ce7.css.map": "/Mr-bitcoin/static/css/main.dd5c4ce7.css.map",
+    "main.858ed0b5.js.map": "/Mr-bitcoin/static/js/main.858ed0b5.js.map",
+    "787.542f81e0.chunk.js.map": "/Mr-bitcoin/static/js/787.542f81e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd5c4ce7.css",
-    "static/js/main.e700e211.js"
+    "static/js/main.858ed0b5.js"
   ]
 }
