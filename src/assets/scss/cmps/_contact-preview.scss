@@ -1,0 +1,14 @@
+.contact-preview {
+  background-color: rgb(43 49 57);
+  //   border-radius: 5px;
+  color: whitesmoke;
+  border-bottom: 1px solid #161a1e;
+  p {
+    margin-top: 4px;
+  }
+  &:hover {
+    color: rgb(248, 209, 47);
+    background-color: rgb(64, 65, 78);
+    transition: background-color 0.4s ease-out;
+  }
+}

@@ -1,0 +1,55 @@
+.contact-edit {
+  color: whitesmoke;
+}
+.contact-edit-form {
+  margin-top: 10px;
+  input {
+    border: none;
+    outline: none;
+    background: #161a1e;
+    padding: 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+  }
+  button {
+    margin-top: 20px;
+    display: flex;
+    width: fit-content;
+    justify-content: flex-end;
+    border: none;
+    outline: none;
+    background: none;
+    background: #161a1e;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgba(116, 252, 253, 0.7);
+    &:hover {
+      color: rgb(248, 209, 47);
+    }
+  }
+}
+.contact-edit-back {
+  margin: 40px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 16px;
+  color: rgba(116, 252, 253, 0.7);
+  &:hover {
+    text-decoration: underline;
+    color: rgb(248, 209, 47);
+  }
+}
+.contact-edit-delete {
+  align-self: flex-end;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: whitesmoke;
+  margin: 40px;
+
+  font-size: 16px;
+  background-color: rgb(214, 48, 48);
+  border-radius: 5px;
+}

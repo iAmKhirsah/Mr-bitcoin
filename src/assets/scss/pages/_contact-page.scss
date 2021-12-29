@@ -1,0 +1,14 @@
+.new-contact {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 10px;
+  color: rgba(116, 252, 253, 0.7);
+  &:hover {
+    color: rgb(248, 209, 47);
+  }
+}
+.contact-page-actions {
+  input {
+    flex: 1;
+  }
+}

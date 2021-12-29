@@ -1,0 +1,50 @@
+.contact-details {
+  color: whitesmoke;
+}
+.contact-details-img{
+  background-color: rgb(43 49 57);
+  border-radius: 25px;
+  &:hover{
+    background-color: rgb(212, 186, 80);
+    transition: background-color 0.5s ease;
+  }
+}
+.contact-details-actions {
+  width: 100%;
+  color: rgba(116, 252, 253, 0.7);
+  a {
+    &:hover {
+      color: rgb(248, 209, 47);
+    }
+  }
+  button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    color: rgba(116, 252, 253, 0.7);
+    &:hover {
+      text-decoration: underline;
+      color: rgb(248, 209, 47);
+    }
+  }
+}
+.contact-details-content {
+  > * {
+    margin-top: 5px;
+  }
+}
+
+
+.transactions {
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #161a1e;
+  p {
+    margin-top: 5px;
+    background-color: rgb(43 49 57);
+    padding: 5px;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,12 @@
+.input {
+  margin: 5px 0 20px 0;
+  input {
+    outline: none;
+    border: none;
+    background-color: rgb(43 49 57);
+    width: clamp(50px, 100%, 400px);
+    border-radius: 5px;
+    padding: 10px 80px 10px 10px;
+    color: whitesmoke;
+  }
+}

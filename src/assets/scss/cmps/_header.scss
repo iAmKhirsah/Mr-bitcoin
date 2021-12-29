@@ -1,0 +1,21 @@
+.app-header {
+  color: whitesmoke;
+  background: #161a1e;
+  padding: 10px;
+  align-items: center;
+}
+.logo {
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+    color: rgb(248, 209, 47)
+  }
+}
+.app-nav {
+  > * {
+    margin: 5px;
+    &:hover{
+        color: rgb(248, 209, 47);
+    }
+  }
+}
