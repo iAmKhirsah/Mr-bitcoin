@@ -43,7 +43,7 @@ export class _HomePage extends Component {
         </div>
         <div className='transactions'>
           <h1>Latest transactions:</h1>
-          <Transactions loggedInUser={loggedInUser} />
+          {loggedInUser.transactions.length ? <Transactions loggedInUser={loggedInUser} /> : 'No transactions recorded'}
         </div>
       </div>
     );

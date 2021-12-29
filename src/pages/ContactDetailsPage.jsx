@@ -60,15 +60,10 @@ export class _ContactDetailsPage extends Component {
               </div>
               <div className='transactions'>
                 <h1>Latest transactions:</h1>
-                <Transactions loggedInUser={loggedInUser} contact={contact} />
+                {contact.transactions.length ? <Transactions loggedInUser={loggedInUser} contact={contact} /> : 'No transactions recorded'}
+                 <Transactions loggedInUser={loggedInUser} contact={contact} />
                 <button onClick={this.handleTransfer}>Transfer</button>
               </div>
-              {/* <button
-                onClick={this.removeUser}
-                className="contact-details-delete"
-              >
-                Delete
-              </button> */}
             </div>
           </div>
         )}
