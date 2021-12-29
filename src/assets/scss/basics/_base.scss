@@ -75,7 +75,11 @@ input {
   font-family: inherit;
   text-align: inherit;
 }
-
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 // MAC like scrollbar
 ::-webkit-scrollbar {
   width: 8px;

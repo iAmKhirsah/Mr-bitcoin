@@ -14,6 +14,8 @@ class _ContactPage extends Component {
     this.props.loadContacts();
   }
   onChangeFilter = (filterBy) => {
+    console.log(filterBy);
+    console.log(this.props);
     this.props.setFilterBy(filterBy);
     this.props.loadContacts();
   };
